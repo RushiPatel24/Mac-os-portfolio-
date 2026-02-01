@@ -1,34 +1,34 @@
 [
   {
     "id": 1,
-    "image": "https://images.unsplash.com/photo-1517433456452-f9633a875f6f?auto=format&fit=crop&q=80&w=1000",
+    "image": "mac_os.png",
     "title": "macOS-Inspired Portfolio",
     "description": "A personal portfolio website inspired by macOS UI, featuring draggable windows, dock-style navigation, and an interactive desktop experience built using React.",
     "tags": ["React.js", "HTML", "SCSS", "JavaScript"],
-    "repoLink": "https://github.com/rushipatel437/macos-portfolio",
-    "demoLink": null
+    "repoLink": "https://github.com/RushiPatel24/Mac-os-portfolio-",
+    "demoLink": "https://mac-os-portfolio-rp.netlify.app/"
   },
   {
     "id": 2,
-    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&q=80&w=1000",
+    "image": "rock_game.png",
     "title": "Rock Paper Scissors Game",
     "description": "A fun and interactive web application built with React that allows users to play the classic Rock, Paper, Scissors game against the computer with an engaging and responsive UI.",
     "tags": ["React.js", "Tailwind CSS", "JavaScript"],
     "repoLink": "https://github.com/RushiPatel24/Rock-Paper-Scissors",
-    "demoLink": null
+    "demoLink": "https://roke-game.netlify.app/"
   },
   {
     "id": 3,
-    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000",
+    "image": "todo.png",
     "title": "ToDo Application",
     "description": "A responsive task management application that allows users to create, update, delete, and mark tasks as completed, with local storage integration for data persistence.",
     "tags": ["React.js", "Tailwind CSS", "JavaScript", "Local Storage"],
     "repoLink": "https://github.com/RushiPatel24/iTask-Manage-your-todos-at-one-place",
-    "demoLink": null
+    "demoLink": "https://itask-todomanage.netlify.app/"
   },
   {
     "id": 4,
-    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=1000",
+    "image": "urbun.png",
     "title": "UrbanClap Clone",
     "description": "An on-demand service marketplace clone that connects users with local professionals for services such as home cleaning, plumbing, electrical repairs, and beauty services.",
     "tags": ["HTML", "CSS", "JavaScript", "Java"],
