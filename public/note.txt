@@ -1,0 +1,193 @@
+
+/**
+ * @file: profile.config.ts
+ * @author: Rushi Patel
+ * @summary: Frontend-focused Web Developer with strong UI,
+ *           React, and problem-solving skills.
+ */
+
+// --------------------------------------------------
+// 1. TECH STACK & SKILLS
+// --------------------------------------------------
+
+const TECH_STACK = {
+  frontend: [
+    "HTML5",
+    "CSS3",
+    "JavaScript (ES6+)",
+    "React.js",
+    "Angular",
+    "Tailwind CSS",
+    "Bootstrap",
+    "SCSS"
+  ],
+  backend_basic: [
+    "Node.js",
+    "Express.js",
+    "MongoDB"
+  ],
+  programming_languages: [
+    "Python",
+    "C++",
+    "C",
+    "Java"
+  ],
+  tools: [
+    "Git",
+    "GitHub"
+  ]
+};
+
+// --------------------------------------------------
+// 2. PROFESSIONAL EXPERIENCE
+// --------------------------------------------------
+
+type WorkImpact = {
+  role: string;
+  company: string;
+  period: string;
+  achievements: string[];
+};
+
+class ProfessionalHistory {
+
+  /**
+   * FRONTEND DEVELOPER
+   * Saawahi IT Solution LLP, Ahmedabad
+   * Oct 2025 - Dec 2025
+   */
+  public Saawahi_IT_Solution(): WorkImpact {
+    return {
+      role: "Frontend Developer",
+      company: "Saawahi IT Solution LLP",
+      period: "Oct 2025 - Dec 2025",
+      achievements: [
+        "Worked on live production projects fixing bugs",
+        "Improved UI functionality and user experience",
+        "Enhanced website responsiveness",
+        "Used Git for version control and collaboration"
+      ]
+    };
+  }
+
+  /**
+   * WEB DEVELOPER
+   * Plasmid, Bengaluru
+   * Aug 2024 - Oct 2024
+   */
+  public Plasmid(): WorkImpact {
+    return {
+      role: "Web Developer",
+      company: "Plasmid",
+      period: "Aug 2024 - Oct 2024",
+      achievements: [
+        "Developed modern UI using HTML, CSS, JavaScript",
+        "Built responsive, cross-browser layouts",
+        "Focused on performance and clean UI design"
+      ]
+    };
+  }
+}
+
+// --------------------------------------------------
+// 3. PROJECTS
+// --------------------------------------------------
+
+interface Project {
+  name: string;
+  tech: string[];
+  period: string;
+  description: string;
+}
+
+const projects: Project[] = [
+  {
+    name: "macOS-Inspired Portfolio",
+    tech: [
+      "React.js",
+      "HTML",
+      "SCSS",
+      "JavaScript"
+    ],
+    period: "Jan 2025",
+    description:
+      "macOS-style personal portfolio with desktop UI, " +
+      "draggable windows, dock navigation, and terminal-like sections."
+  },
+  {
+    name: "Rock Paper Scissors Game",
+    tech: [
+      "React.js",
+      "Tailwind CSS"
+    ],
+    period: "Nov 2024",
+    description:
+      "Interactive game built with React featuring " +
+      "responsive UI and engaging gameplay."
+  },
+  {
+    name: "ToDo Application",
+    tech: [
+      "React.js",
+      "Tailwind CSS"
+    ],
+    period: "Mar 2024",
+    description:
+      "Task manager with CRUD operations and " +
+      "local storage persistence."
+  },
+  {
+    name: "UrbanClap Clone",
+    tech: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Java"
+    ],
+    period: "Aug 2019 - Apr 2020",
+    description:
+      "On-demand service marketplace connecting users " +
+      "with local service professionals."
+  }
+];
+
+// --------------------------------------------------
+// 4. EDUCATION
+// --------------------------------------------------
+
+const education = new Map<string, string>([
+  [
+    "Indus University, Ahmedabad",
+    "B.Tech Computer Engineering | CGPA: 7.31 | 2023 - 2026"
+  ],
+  [
+    "Government Polytechnic, Ahmedabad",
+    "Diploma Computer Engineering | CGPA: 7.58 | 2020 - 2023"
+  ]
+]);
+
+// --------------------------------------------------
+// 5. CAREER OBJECTIVE
+// --------------------------------------------------
+
+const careerObjective = `
+Passionate Web Developer with a strong foundation in
+programming, problem-solving, and frontend development.
+Focused on building user-friendly, responsive web
+applications that solve real-world problems.
+`;
+
+export default new ProfessionalHistory();
+```
+
+```bash
+# TERMINAL OUTPUT
+# ---------------------------------------
+$ user --profile
+> Name: Rushi Patel
+> Role: Frontend / Web Developer
+> Location: India
+> Status: Open to Opportunities
+> Tech Stack Loaded... [||||||||||] 100%
+> Ready to Build 🚀
+```

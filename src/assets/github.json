@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1517433456452-f9633a875f6f?auto=format&fit=crop&q=80&w=1000",
+    "title": "macOS-Inspired Portfolio",
+    "description": "A personal portfolio website inspired by macOS UI, featuring draggable windows, dock-style navigation, and an interactive desktop experience built using React.",
+    "tags": ["React.js", "HTML", "SCSS", "JavaScript"],
+    "repoLink": "https://github.com/rushipatel437/macos-portfolio",
+    "demoLink": null
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&q=80&w=1000",
+    "title": "Rock Paper Scissors Game",
+    "description": "A fun and interactive web application built with React that allows users to play the classic Rock, Paper, Scissors game against the computer with an engaging and responsive UI.",
+    "tags": ["React.js", "Tailwind CSS", "JavaScript"],
+    "repoLink": "https://github.com/RushiPatel24/Rock-Paper-Scissors",
+    "demoLink": null
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000",
+    "title": "ToDo Application",
+    "description": "A responsive task management application that allows users to create, update, delete, and mark tasks as completed, with local storage integration for data persistence.",
+    "tags": ["React.js", "Tailwind CSS", "JavaScript", "Local Storage"],
+    "repoLink": "https://github.com/RushiPatel24/iTask-Manage-your-todos-at-one-place",
+    "demoLink": null
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=1000",
+    "title": "UrbanClap Clone",
+    "description": "An on-demand service marketplace clone that connects users with local professionals for services such as home cleaning, plumbing, electrical repairs, and beauty services.",
+    "tags": ["HTML", "CSS", "JavaScript", "Java"],
+    "repoLink": null,
+    "demoLink": null
+  }
+]
