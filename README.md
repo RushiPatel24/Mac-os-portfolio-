@@ -1,16 +1,154 @@
-# React + Vite
+# 🍎 macOS-Inspired Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **macOS-style interactive portfolio** built with **React + Vite**.  
+This project simulates a macOS desktop experience with draggable windows,
+dock navigation, and a terminal interface to showcase projects, skills,
+resume, and contact details.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- 🖥️ macOS-style desktop UI
+- 🪟 Draggable & closable windows
+- 💻 Interactive terminal (CLI)
+- 🧭 Dock-style navigation
+- 📄 Resume viewer (PDF)
+- 📝 Notes viewer (TXT)
+- 🎵 Spotify-style UI
+- ⏰ Live date & time
+- 🎨 Clean SCSS styling
+- ⚡ Fast performance with Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Frontend**
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- SCSS
+
+**Libraries & Tools**
+- Vite
+- react-rnd (draggable windows)
+- Git & GitHub
+
+---
+
+## 📂 Project Structure
+
+```txt
+MAC-OS/
+├── node_modules/
+├── public/
+│   ├── doc-icons/
+│   │   ├── calender.svg
+│   │   ├── cli.svg
+│   │   ├── github.svg
+│   │   ├── link.svg
+│   │   ├── mail.svg
+│   │   ├── note.svg
+│   │   ├── pdf.svg
+│   │   └── spotify.svg
+│   ├── navbar-icons/
+│   │   ├── apple.svg
+│   │   └── wifi.svg
+│   ├── mac-wallpaper.jpg
+│   ├── note.txt
+│   └── Rushi Patel - CV.pdf
+│
+├── src/
+│   ├── assets/
+│   │   └── github.json
+│   │
+│   ├── components/
+│   │   ├── windows/
+│   │   │   ├── Cli.jsx
+│   │   │   ├── cli.scss
+│   │   │   ├── GitHub.jsx
+│   │   │   ├── github.scss
+│   │   │   ├── MacWindow.jsx
+│   │   │   ├── macWindow.scss
+│   │   │   ├── Note.jsx
+│   │   │   ├── note.scss
+│   │   │   ├── Resume.jsx
+│   │   │   ├── resume.scss
+│   │   │   ├── Spotify.jsx
+│   │   │   └── spotify.scss
+│   │   │
+│   │   ├── DateTime.jsx
+│   │   ├── Dock.jsx
+│   │   ├── dock.scss
+│   │   ├── Nav.jsx
+│   │   └── nav.scss
+│   │
+│   ├── App.jsx
+│   ├── app.scss
+│   └── main.jsx
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+
+```
+
+## 💻 Terminal Commands
+
+The built-in terminal supports custom commands:
+```
+help        # List all available commands
+projects    # View recent projects
+skills      # Display technical skills
+experience  # Work experience
+education   # Academic background
+contact     # Contact information
+clear       # Clear terminal screen
+```
+
+## 🚀 Getting Started
+```
+1️⃣ Clone the repository
+
+git clone https://github.com/your-username/macos-portfolio.git
+cd macos-portfolio
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Start development server
+npm run dev
+```
+## 📌 Customization
+```
+Update resume PDF in:
+
+public/Rushi Patel - CV.pdf
+
+
+Update terminal data inside:
+
+src/components/windows/Cli.jsx
+
+
+Update icons inside:
+
+public/doc-icons/
+
+
+Update GitHub data:
+
+src/assets/github.json
+```
+## 📬 Contact
+```
+Rushi Patel
+📧 Email: rushipatel437@gmail.com
+📍 Location: India
+🔗 LinkedIn: https://linkedin.com/in/rushi-patel-6a311a308
+💼 Status: Open to Opportunities
