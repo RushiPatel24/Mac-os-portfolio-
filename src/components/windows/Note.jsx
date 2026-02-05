@@ -16,7 +16,7 @@ const Note = ({windowName, setWindowState}) => {
         .then(text => setMarkdown(text))
     },[])
   return (
-    <MacWindow windowName={windowName} setWindowState={setWindowState}>
+    <MacWindow x={300} y={200} windowName={windowName} setWindowState={setWindowState}>
         <div className="note-window">
             { markdown ? <SyntaxHighlighter language="typescript" style={atelierDuneDark}>
       {markdown}

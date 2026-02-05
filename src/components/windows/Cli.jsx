@@ -22,7 +22,7 @@ Happy exploring! 🚀
 `;
 
     return (
-        <MacWindow windowName={windowName} setWindowState={setWindowState}>
+        <MacWindow x={750} y={300} windowName={windowName} setWindowState={setWindowState}>
             <div className="cli-window">
                 <Terminal
                     commands={{
